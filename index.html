@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html>
 <!--Create new html page for each link; one for many gits, one for resume, one for my games/work, about me, home is this-->
-	<head>
-		<title>No Talent Inc.</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<div class="nav">
-			<a href="/git">Git</a> 
-			<a href="/resume">Resume</a>
-			<a href="/about">About</a>
-           	<a href="/">Home</a>
-        	<div class="me">
-        	<a href="/me">Diana Kumykova</a>
-        	</div>  	
-		</div>
-		<div class="container">
-    		<div class="bio">
-        		<h1>Heyo this is where I talk about how little talent I have!</h1>
-				<p>About me and all my many talents. I also probably want to link a video/live demo for tree bois. </p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<p>Copyright Sad Bitch Enterprise</p>
-		</footer>
-	</body>
+<head>
+	<meta name="viewport" content="width=device=width, initial-scale=1">
+	<title>No Talent Inc.</title>
+	<!-- link to main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+	<div class="nav" id="navbar">
+		<a href="/git">Git</a> 
+		<a href="/resume">Resume</a>
+		<a href="/about">About</a>
+		<a href="/">Home</a>
+		<div class="me">
+			<a href="/me">Diana Kumykova</a>
+		</div>  	
+	</div>
+	<div class="container">
+		<div class="bio">
+			<h1>Heyo this is where I talk about how little talent I have!</h1>
+			<p>  I have loved both the sun and the moon.
+				The sun, for her glittering embrace. The moon, for her quiet grace.
+				
+				The sun has scorched my eyes with her splendour, her brilliance a stained-glass afterimage even in my sleep. The moon, her beauty I have seen through tears.
+				
+				One, gilded beams slanting through high windows. One, a rippling smile against the darkness of a koi pond. One, dappled gently across distant hills. One, a sheaf of silvered rice paper floating on ink. One, whose light the clouds cannot contain, whose rays pierce free from heaven itself. One, who shyly cloaks herself in the velvet-lined mist of the night sky.
+				
+				And though one may prefer the quiet solitude of darkness, and the other may revel in the shimmering day, I have loved them both. I will love them both. I do love them, both, in a curious way that twists my heart in two as day drifts into dusk and night blushes a new dawn. That I could split myself apart, dedicate one to the flaming goddess, abandon one to the shadowed deity—and yet the entirety of my being is enamored with both, perpetually suspended in a twilight where sun and moon share the same fading sky. It is limbo, a tormenting and exhilarating purgatory. I would leave, but I would not know which heaven to choose. I would burn in endless sunlight. I would go blind in eternal night.   
+				
+				They are so different in nature, in essence of being. One I cannot look upon; my mortal eyes cannot bear her bright beauty; my body burns before her. She hides nothing, and scours the sky free of shadow. Hers is a hot, probing light that seeps through the cracks of mossy caves where things best left hidden lie, that pierces even the deepest darkness where no other star dares go. She is the sun, she is fire, but even the sun will one day expire; should too great a time pass between us, she may go cold and her passion die.
+				The other has so often transfixed me beneath her cold veils of light, seeming at once so unnaturally near and so terribly far, the allure of her beauty invoking a desperate love and a fathomless despair. For the moon has two faces: one luminous, gorgeous and bare—the other unknowable, turned away into shadow. And though I believe I would love all of her, something deep inside fears what the eye cannot see, what has been hidden from the young, trusting eyes of the earth. For was the moon not once part of the earth? Perhaps therein lies the true fear—the fear that the moon and the earth are not so different, that their darkness is shared.
+			</p> <!--this text should enable scrolling for now-->
+		</div><!-- /.blurb -->
+	</div><!-- /.container -->
+	<footer>
+		<p>Copyright Sad Bitch Enterprise</p>
+	</footer>
+
+	<script type="text/javascript">
+		window.onscroll = function() {test()}
+		var nav = document.getElementById("navbar");
+		var sticky = nav.offsetTop;
+
+		//function to make navbar stick as you scroll
+		function test(){
+			if (window.pageYOffset > sticky) {
+				nav.classList.add("sticky");
+			} else {
+				nav.classList.remove("sticky");
+			}
+		}
+	</script>
+</body>
 </html>
