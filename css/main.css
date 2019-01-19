@@ -38,8 +38,9 @@ html, body {
     float: left;
 }
 
-.bio {
-    margin-top: 100 px;
+.container {
+    margin-top: 100px;
+    padding: 16px;
     font-family:'Georgia', 'Times New Roman', 'Sans-Serif';
 }
 .sticky {
