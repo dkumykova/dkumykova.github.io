@@ -7,13 +7,8 @@ body {
     background-color: lightblue;
 }
 .dropbtn {
-    float: right;
     background-color: #333; 
-    color: #FF3374; /*change color to something slightly lighter/darker?*/
-    font-size: 20px;
-    font-family:'Georgia', 'Times New Roman', 'Sans-Serif';
     padding: 20px;
-    font-weight: bold;
     border: none;
     cursor: pointer; 
 }
@@ -21,6 +16,10 @@ body {
     background-color: #ddd;
 }
 .dropdown {
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    font-family:'Georgia', 'Times New Roman', 'Sans-Serif';
     position: relative;
     display: inline-block;
 }
