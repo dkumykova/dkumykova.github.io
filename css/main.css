@@ -1,9 +1,12 @@
 title {
-    margin-top: 50px;
+    margin-top: 15px;
 
 }
 body {
-    margin: 100px auto;
+    height: 60%;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
 }
 .nav {
     overflow: hidden;
