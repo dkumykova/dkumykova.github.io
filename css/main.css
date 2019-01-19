@@ -26,7 +26,6 @@ body {
     background-color: #ddd;
     color: black;
 }
-/*don't think i need this but double check*/
 .nav a.active {
     background-color: #4CAF50;
     color: white;
@@ -62,7 +61,7 @@ p {
 footer {
     padding-top: 100px;
     border-top: 1px solid #d5d5d5;
-    font-size: .1em;
+    font-size: .9em;
 }
 
 .btn {
