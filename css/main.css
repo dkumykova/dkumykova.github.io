@@ -4,7 +4,6 @@ title {
 }
 body {
     margin: 100px auto;
-    width: 100%;
 }
 .nav {
     overflow: hidden;
@@ -18,7 +17,7 @@ body {
     float: right;
     color: #FF3374;
     text-align: center;
-    padding: 14px 15px;
+    padding: 15px 15px;
     text-decoration: none;
     font-size: 20px;
 }
@@ -41,7 +40,7 @@ body {
 }
 h1 {
     font-size: 3em;
-    padding-top: 40px;
+    padding-top: 15px;
 }
 p {
     font-size: 1.5em;
@@ -70,11 +69,4 @@ footer {
     border-color: #F27142;
     color: red;
 }
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
 
-ul.posts li {
-    list-style: none;
-}
