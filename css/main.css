@@ -10,7 +10,6 @@ body {
     overflow: hidden;
     background-color: #333;
     font-family:'Georgia', 'Times New Roman', 'Sans-Serif';
-    padding: 0px;
     font-weight: bold;
 }
 #navbar a {
@@ -35,8 +34,8 @@ body {
 }
 
 .container {
-    margin-top: 100px;
-    padding: 16px;
+    margin-top: 20px;
+    padding: 20px;
     font-family:'Georgia', 'Times New Roman', 'Sans-Serif';
 }
 .sticky {
@@ -55,7 +54,7 @@ p {
     padding-top: 10px;
     width: 60%;
     font-size: 1em;
-    line-height: 1em;
+    line-height: 1.5em;
     color: #333;
 }
 footer {
@@ -70,6 +69,7 @@ footer {
     color: black;
     padding: 30px 30px;
     font-size: 30px;
+    margin-left: 100px;
     cursor: pointer;
 }
 

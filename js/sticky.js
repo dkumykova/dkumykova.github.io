@@ -1,8 +1,8 @@
 
 
 window.onscroll = function() {stickbar()}
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+var nav = document.getElementById("navbar");
+var sticky = nav.offsetTop;
 
 //function to make navbar stick as you scroll, adds sticky clas
 //to navbar when you reach its scroll position; remove when
