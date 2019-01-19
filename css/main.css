@@ -56,14 +56,14 @@ h1 {
 }
 p {
     width: 60%;
-    font-size: .5em;
-    line-height: .4em;
+    font-size: 1em;
+    line-height: .8em;
     color: #333;
 }
 footer {
     padding-top: 100px;
     border-top: 1px solid #d5d5d5;
-    font-size: .2em;
+    font-size: .1em;
 }
 
 .btn {
