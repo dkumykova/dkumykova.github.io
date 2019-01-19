@@ -27,7 +27,7 @@ body {
     color: black;
 }
 .nav a.active {
-    background-color: #4CAF50;
+    background-color: #7A3D51;
     color: white;
 }
 .me {
@@ -55,7 +55,7 @@ p {
     padding-top: 10px;
     width: 60%;
     font-size: 1em;
-    line-height: .8em;
+    line-height: 1em;
     color: #333;
 }
 footer {
