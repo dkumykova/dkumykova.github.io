@@ -7,10 +7,13 @@ body {
     background-color: lightblue;
 }
 .dropbtn {
+    float: right;
     background-color: #333; 
     color: #FF3374; /*change color to something slightly lighter/darker?*/
-    font-size: 15px;
+    font-size: 20px;
+    font-family:'Georgia', 'Times New Roman', 'Sans-Serif';
     padding: 20px;
+    font-weight: bold;
     border: none;
     cursor: pointer; 
 }
@@ -23,9 +26,9 @@ body {
 }
 .drop-content {
     display: none;
-    position: abosolute;
+    position: absolute;
     background-color: #333;
-    min-width: 120px;
+    width: 80px;
     overflow: auto;
     box-shadow: 0px, 5px, 10px, 0px rgba(0, 0, 0, 0.5);
     right: 0;
@@ -39,8 +42,10 @@ body {
 }
 .dropdown a:hover {
     background-color: #0000FF;
+    color: black;
 }
 .show {display: block;}
+
 #navbar {
     overflow: hidden;
     background-color: #333;
@@ -74,7 +79,7 @@ body {
     font-family:'Georgia', 'Times New Roman', 'Sans-Serif';
 }
 .sticky {
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
 }
