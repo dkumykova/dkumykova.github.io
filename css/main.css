@@ -31,10 +31,16 @@ body {
     background-color: #4CAF50;
     color: white;
 }
+.me {
+    float: left;
+}
 
+.bio {
+    margin-top: 100 px;
+    font-family:'Georgia', 'Times New Roman', 'Sans-Serif';
+}
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding-top: 40px;
 }
 p {
