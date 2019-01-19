@@ -33,6 +33,23 @@ footer {
     font-size: .8em;
 }
 
+.btn {
+    border: 3px solid black;
+    background-color: lightblue;
+    color: black;
+    /*padding: somthing;*/
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.github {
+    border-color: #CB26F5;
+    color: violet;
+}
+.gitlab {
+    border-color: #F27142;
+    color: red;
+}
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
