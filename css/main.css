@@ -46,6 +46,8 @@ body {
 .show {display: block;}
 
 #navbar {
+    float: right;
+    text-decoration: none;
     position: fixed;
     font-family:'Georgia', 'Times New Roman', 'Sans-Serif';
     font-weight: bold;
@@ -54,7 +56,6 @@ body {
     
 }    
 #navbar a {
-    float: right;
     font-size: 20px;
     color: #FF3374;
     text-align: center;
