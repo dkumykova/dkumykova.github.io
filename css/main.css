@@ -1,11 +1,18 @@
 body {
     margin: 0;
+    /*min-height: 100%;
+    display: flex;
+    flex-direction: column;*/
     padding: 0px;
     background-color: lightblue;
 }
 .dropbtn {
     background-color: #333; 
+    color: #FF3374; /*change color to something slightly lighter/darker?*/
+    font-size: 20px;
+    font-family:'Georgia', 'Times New Roman', 'Sans-Serif';
     padding: 20px;
+    font-weight: bold;
     border: none;
     cursor: pointer; 
 }
@@ -13,11 +20,7 @@ body {
     background-color: #ddd;
 }
 .dropdown {
-    font-size: 20px;
-    font-weight: bold;
     float: right;
-    color: #FF3374;
-    font-family:'Georgia', 'Times New Roman', 'Sans-Serif';
     position: relative;
     display: inline-block;
 }
