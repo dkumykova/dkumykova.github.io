@@ -47,6 +47,7 @@ body {
 
 #navbar {
     float: right;
+    position: fixed;
     overflow: hidden;
     background-color: #333;
     font-family:'Georgia', 'Times New Roman', 'Sans-Serif';
@@ -54,7 +55,8 @@ body {
 }
 #navbar a {
     float: right;
-    display: block;
+    left:0;
+    display: inline;
     color: #FF3374;
     text-align: center;
     padding: 15px 15px;
@@ -74,15 +76,14 @@ body {
     margin-top: 20px;
     padding: 20px;
     font-family:'Georgia', 'Times New Roman', 'Sans-Serif';
-}
-.sticky {
+}/*.sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
 .sticky + .container{
     padding-top: 60px;
-}
+}*/
 h1 {
     font-size: 3em;
     padding-top: 15px;
