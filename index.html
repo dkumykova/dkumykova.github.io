@@ -11,20 +11,18 @@
 <body>
 	<!--script src="/js/sticky.js" type="text/javascript"></script-->
 	<script src="/js/drop.js" type="text/javascript"></script>
+	<div class="dropdown"> <!--dropdown for gits only-->
+		<button onclick="drop()" class="dropbtn">Git</button>
+		<div id="droplinks" class="drop-content">
+			<a href="https://github.com/dkumykova">Github</a>
+			<a href="https://gitlab.com/dkumykova">GitLab</a>
+		</div> <!--all within the dropdown class to maintain css consistency?-->
+	</div>
 	<div id="navbar">
-		<div class="dropdown"> <!--dropdown for gits only-->
-			<button onclick="drop()" class="dropbtn">Git</button>
-			<div id="droplinks" class="drop-content">
-				<a href="https://github.com/dkumykova">Github</a>
-				<a href="https://gitlab.com/dkumykova">GitLab</a>
-			</div> <!--all within the dropdown class to maintain css consistency?-->
-		</div>
 		<a href="/resume">Resume</a>
 		<a href="/about">About</a>
 		<a href="/">Home</a>
-		<div class="me">
-			<a href="#">Diana Kumykova</a>
-		</div>  	
+		<a href="#">Diana Kumykova</a> 	
 	</div> 
 
 </div>
