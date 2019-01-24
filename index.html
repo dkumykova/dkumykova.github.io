@@ -8,15 +8,23 @@
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 <body>
-	<ul class="navbar">
-		<li><a href="#">About Me</a></li>
-		<li><a href="#">Projects</a></li>
-		<li><a href="/resume">Resume</a></li>
-		<li><a href="#">Git</a></li>
-	</ul>
+	<div class="navbar">
+		<a href="#">About Me</a>
+		<a href="#">Projects</a>
+		<a href="/resume">Resume</a>
+		<div class="dropdown">
+			<button class="dropbtn">Git
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="https://github.com/dkumykova">Github</a>
+				<a href="https://gitlab.com/dkumykova">GitLab</a>
+		</div>
+	</div>
+</body>
 <footer>
 	<p>Copyright Sad Bitch Enterprise</p>
 </footer>
 
-</body>
+
 </html>
