@@ -1,10 +1,11 @@
 body {
     margin: 0;
+    background-color: lightpink;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: #ddd;
+    background-color: #6D6267;
     font-family: "Georgia";
 }
 .navbar a {
@@ -26,13 +27,14 @@ body {
     border: none;
     outline: solid;
     padding: 15px 15px;
-    background-color: #ddd;
+    background-color: #6D6267;
+    color: #FF3A8A;
     font-family: inherit;
     margin: 0;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #6D6267;
+    background-color: #ddd;
 }
 
 .dropdown-content {
@@ -53,7 +55,7 @@ body {
     text-align: center;
 }
 .dropdown-content a:hover{
-    background-color: #6D6267;
+    background-color: #ddd;
 }
 .dropdown:hover .dropdown-content{
     disaply: block;
@@ -61,6 +63,7 @@ body {
 
 footer {
     bottom: 0;
+    padding-top: 300px;
     margin-top: 30px;
     font-size: 20px;
     color: black;
