@@ -2,19 +2,27 @@ body {
     margin: 0;
     background-color: lightpink;
 }
+p {
+    font-family: "Times New Roman";
+    font-size: 15px;
+    line-height: 20px;
+    margin: 20px;
+    column-width: .6vw;
+}
 
 .navbar {
     overflow: hidden;
     background-color: #6D6267;
     font-family: "Georgia";
+    font-weight: bold;
+    font-size: 20px;
+    position: fixed;
 }
 .navbar a {
     float: left;
-    font-size: 20px;
-    font-weight: bold;
     color: #FF3A8A;
     text-align: center;
-    padding: 15px 15px;
+    padding: 15px 15px; /*changed from 15 15*/
     text-decoration: none;
 }
 .dropdown {
@@ -23,10 +31,10 @@ body {
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     outline: solid;
-    padding: 15px 15px;
+    padding: 0;
     background-color: #6D6267;
     color: #FF3A8A;
     font-family: inherit;
@@ -58,7 +66,7 @@ body {
     background-color: #ddd;
 }
 .dropdown:hover .dropdown-content{
-    disaply: block;
+    display: block;
 }
 
 footer {
