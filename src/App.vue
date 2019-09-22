@@ -1,14 +1,21 @@
 <template>
   <div id="app">
+    
     <div id="myNav">
-    <ul>
-        <li v-on:click="showMainPage">Home</li>
-        <li v-on:click="showAboutPage">Me</li>
-        <li v-on:click="showWorkPage">Project/Work</li>
-    </ul>
+      <ul>
+          <li id="testID" v-on:click="showMainPage">Home</li>
+          <li id="testID" v-on:click="showAboutPage">Me</li>
+          <li id="testID" v-on:click="showWorkPage">Project/Work</li>
+          <li>
+            <img id="profileImg" src="./images/profile_photo_1.png" width="80" height="90">
+          </li>
+          
+      </ul>
+          
     </div>
+    
 
-    <div id="aboutPage" v-show="showAbout" v-bind:style="{backgroundColor: #e7d5f2}">
+    <div id="aboutPage" v-show="showAbout">
       <aboutMe></aboutMe>
     </div>
     <div id="workStuffs" v-show="showWork">
@@ -23,7 +30,6 @@
 
 <script>
 import aboutMe from './pages/aboutPage.vue'
-//import navBar from './components/navComp.vue'
 import myFooter from './components/footerComp.vue'
 import work from './pages/workPage.vue'
 
@@ -32,7 +38,6 @@ export default {
   name: 'app',
   components: {
     aboutMe,
-    //navBar,
     myFooter,
     work
   },

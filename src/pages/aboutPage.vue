@@ -2,7 +2,7 @@
  
  <div id="aboutMe">
    
-      <img src="../images/no_face.jpg" width="90" height="80" float="left">
+      <!-- <img src="../images/no_face.jpg" width="90" height="80" float="left"> -->
    
     
     <h3>Hello it me</h3>

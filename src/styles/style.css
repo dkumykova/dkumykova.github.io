@@ -1,56 +1,75 @@
-/* #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+body{
+    background-color: #fff7d4;
+}
   
-} */
-  
-.myNav {
+#myNav {
     list-style-type: none;
     padding: 0;
-    position: fixed; /*floating nav*/
-    /* margin-left: -70px; fix this */
-    
+    position: fixed; 
+    height: 70px;
+    background-color: #b7ca79;
+    float: right;
+    width: 100%;
 }
+
 ul {
     padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    width: 100%;
 }
 li {
     display: inline-block;
     margin: 0 30px;
     font-size: 1em;
-    color: black;
+    float: right;
+    color: white;
+    
 }
   
 li:hover{
-      color: blueviolet;
+    color: black;
 }
   
 li:active{
-      color: red;
+      color: #677e52;
 }
-a {
+/* a {
     color: #42b983;
-}
+} */
 
 #myFooter{
     list-style-type: none;
     padding: 0;
     position: fixed; /*floating nav*/
     bottom: 10px;
+    margin-left: 0px;
+    font-size: .5em;
+    
+    /* color: gray; */
 }
+
+#myFooter li{
+    color: black;
+    margin: 0 10px;
+}
+
 
 #mainBox {
     background-color: lightblue;
     margin-right: 150px;
-    background-image: url("../images/ori_areas.png");
-  
+    background-color: #afcd97;
+    width: 300px;
+    height: 300px;
   }
 
-.profileImg{
-    width: 120;
-    height: 80;
-    float: left;
+img{
+    margin-right: 100px;
+}
+
+#testID{
+    margin-top: 25px;
+    
 }
 
 #aboutMe{

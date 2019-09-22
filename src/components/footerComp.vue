@@ -5,6 +5,7 @@
     <ul>
         <li>Email</li>
         <li>Phone</li>
+        <li>Copyright Diana Kumykova 2019</li>
     </ul>
  </div>
 
