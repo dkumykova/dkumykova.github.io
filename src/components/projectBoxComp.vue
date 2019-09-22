@@ -1,3 +1,10 @@
+Vue.component('project-box-comp', {
+  data: function(){
+    return {
+      test: false
+    }
+  }
+
 <template>
 <div>
     <!-- <h1>{{title}} with image and description of project</h1>
@@ -10,17 +17,10 @@
   
 </template>
 
-<script>
-export default {
-  name: 'projBox',
-//   props: {
-//       title: String,
-//     //   backgroundImg: Image,
-//       description: String
-//   }
-  
-}
-</script>
+})
+
+
+
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>

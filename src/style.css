@@ -1,0 +1,41 @@
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+}
+  
+.myNav {
+    list-style-type: none;
+    padding: 0;
+    position: fixed; /*floating nav*/
+    /* margin-left: -70px; fix this */
+    
+}
+ul {
+    padding-inline-start: 0px;
+}
+li {
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 1em;
+    color: black;
+}
+  
+li:hover{
+      color: blueviolet;
+}
+  
+li:active{
+      color: red;
+}
+a {
+    color: #42b983;
+}
+
+.myFooter{
+    list-style-type: none;
+    padding: 0;
+    position: fixed; /*floating nav*/
+    bottom: 10px;
+}
