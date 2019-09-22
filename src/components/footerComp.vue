@@ -21,21 +21,7 @@ export default {
 
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 @import '../styles/style.css';
-/* ul {
-  list-style-type: none;
-  padding: 0;
-  position: fixed; 
-  margin-top: 100px;
-}
-
-li {
-  
-  margin-bottom: 30px;
-  font-size: 1em;
-  color: rgb(44, 39, 39);
-} */
 
 </style>

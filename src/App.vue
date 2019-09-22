@@ -3,24 +3,26 @@
     
     <div id="myNav">
       <ul>
+          <li id="testID" v-on:click="showResumePage">Resume</li>
+          <li id="testID" v-on:click="showWorkPage">Projects</li>
           <li id="testID" v-on:click="showMainPage">Home</li>
-          <li id="testID" v-on:click="showAboutPage">Me</li>
-          <li id="testID" v-on:click="showWorkPage">Project/Work</li>
-          <li>
-            <img id="profileImg" src="./images/profile_photo_1.png" width="80" height="90">
-          </li>
-          
+          <div >
+            <img id="profileImg" v-on:click="showAboutPage" src="./images/profile_photo_1.png" width="60" height="70" cursor="pointer">
+          </div>
       </ul>
-          
     </div>
     
-
+<div id="myContent">
     <div id="aboutPage" v-show="showAbout">
       <aboutMe></aboutMe>
     </div>
     <div id="workStuffs" v-show="showWork">
       <work></work>
     </div>
+    <div id="resumePage" v-show="showResume">
+      <resume></resume>
+    </div>
+</div>
     
     <myFooter></myFooter>
 
@@ -32,6 +34,7 @@
 import aboutMe from './pages/aboutPage.vue'
 import myFooter from './components/footerComp.vue'
 import work from './pages/workPage.vue'
+import resume from './pages/resumePage.vue'
 
 
 export default {
@@ -39,13 +42,15 @@ export default {
   components: {
     aboutMe,
     myFooter,
-    work
+    work,
+    resume
   },
   data: function() {
     return {
       showAbout: false,
       showWork: false,
-      showMain: true
+      showMain: true,
+      showResume: false
     }
   },
   methods: {
@@ -53,17 +58,25 @@ export default {
       this.showAbout = true;
       this.showWork = false;
       this.showMain = false;
+      this.showResume = false;
     },
     showWorkPage: function(){
       this.showWork = true;
       this.showMain = false;
       this.showAbout = false;
+      this.showResume = false;
     },
     showMainPage: function(){
       this.showMain = true;
       this.showWork = false;
       this.showAbout = false;
-      
+      this.showResume = false;
+    },
+    showResumePage: function(){
+      this.showResume = true;
+      this.showWork = false;
+      this.showAbout = false;
+      this.showMain = false;
     }
   }
 }

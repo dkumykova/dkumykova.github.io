@@ -1,12 +1,17 @@
 <template>
  
  <div id="aboutMe">
-   
-      <!-- <img src="../images/no_face.jpg" width="90" height="80" float="left"> -->
-   
-    
-    <h3>Hello it me</h3>
-    <p>description time make it look pretty</p>
+   <div id="photo">
+     <img src="../images/no_face.jpg" width="100" height="100">
+   </div>
+   <div id="blurb">
+     <h2>
+       Hey There - I am DK
+     </h2>
+     <p> 
+       And this is relevant information about me, my passions, my skills, and anything else
+     </p>
+   </div>
     
  </div>
   

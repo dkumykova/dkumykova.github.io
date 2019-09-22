@@ -1,5 +1,7 @@
 body{
     background-color: #fff7d4;
+    margin: 0px;
+    display: flex;
 }
   
 #myNav {
@@ -8,8 +10,8 @@ body{
     position: fixed; 
     height: 70px;
     background-color: #b7ca79;
-    float: right;
     width: 100%;
+    z-index: 999;
 }
 
 ul {
@@ -24,7 +26,9 @@ li {
     font-size: 1em;
     float: right;
     color: white;
-    
+    border-left: 5px;
+    border-color: black;
+    cursor: pointer;
 }
   
 li:hover{
@@ -34,9 +38,10 @@ li:hover{
 li:active{
       color: #677e52;
 }
-/* a {
-    color: #42b983;
-} */
+
+#myContent{
+    margin-top: 100px;
+}
 
 #myFooter{
     list-style-type: none;
@@ -52,6 +57,7 @@ li:active{
 #myFooter li{
     color: black;
     margin: 0 10px;
+    float: right;
 }
 
 
@@ -63,16 +69,29 @@ li:active{
     height: 300px;
   }
 
-img{
-    margin-right: 100px;
-}
 
 #testID{
     margin-top: 25px;
     
 }
 
+#profileImg{
+    cursor: pointer;
+}
+
 #aboutMe{
-    background-color: #e7d5f2;
     
+}
+
+.resumeButton{
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
 }
