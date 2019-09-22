@@ -1,10 +1,12 @@
 <template>
  
+ <div id="myFooter">
  
     <ul>
         <li>Email</li>
         <li>Phone</li>
     </ul>
+ </div>
 
   
 </template>
@@ -20,7 +22,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+@import '../styles/style.css';
 /* ul {
   list-style-type: none;
   padding: 0;

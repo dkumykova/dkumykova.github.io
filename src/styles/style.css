@@ -1,9 +1,9 @@
-#app {
+/* #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   
-}
+} */
   
 .myNav {
     list-style-type: none;
@@ -33,9 +33,27 @@ a {
     color: #42b983;
 }
 
-.myFooter{
+#myFooter{
     list-style-type: none;
     padding: 0;
     position: fixed; /*floating nav*/
     bottom: 10px;
+}
+
+#mainBox {
+    background-color: lightblue;
+    margin-right: 150px;
+    background-image: url("../images/ori_areas.png");
+  
+  }
+
+.profileImg{
+    width: 120;
+    height: 80;
+    float: left;
+}
+
+#aboutMe{
+    background-color: #e7d5f2;
+    
 }

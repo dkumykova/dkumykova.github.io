@@ -1,16 +1,7 @@
-Vue.component('project-box-comp', {
-  data: function(){
-    return {
-      test: false
-    }
-  }
-
 <template>
-<div>
-    <!-- <h1>{{title}} with image and description of project</h1>
-
-    <p>{{description}}</p> -->
-
+<div id="mainBox">
+    <h3 v-on:click="fillDescription">{{title}}</h3>
+    <p v-show="showDescription">{{description}}</p>
 </div>
 
 <!-- TODO: create physical template for the project box with title at top, image in background, and descrition on hover -->
@@ -19,14 +10,38 @@ Vue.component('project-box-comp', {
 
 })
 
+<script>
+export default {
+  data: function(){
+    return{
+      showDescription: false,
+      title: "Test title",
+      description: "Sample descr  iption"
+    }
+  },
+  methods: {
+    fillDescription: function(){
+      
+      if(this.showDescription == false){
+        //this.title = "Test Title";
+        this.showDescription = true;
+        this.description = "trueest shit ajdajsd";
+      } else {
+        this.showDescription = false;
+      }
+      
+      
+    }
+  }
+}
+</script>
 
 
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-a {
-  color: #42b983;
-}
+@import '../styles/style.css';
+
 /* body{
   margin-top: 100px;
 } */

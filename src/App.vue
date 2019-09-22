@@ -8,7 +8,7 @@
     </ul>
     </div>
 
-    <div id="aboutPage" v-show="showAbout">
+    <div id="aboutPage" v-show="showAbout" v-bind:style="{backgroundColor: #e7d5f2}">
       <aboutMe></aboutMe>
     </div>
     <div id="workStuffs" v-show="showWork">
@@ -58,6 +58,7 @@ export default {
       this.showMain = true;
       this.showWork = false;
       this.showAbout = false;
+      
     }
   }
 }
@@ -65,5 +66,5 @@ export default {
 
 
 <style>
-@import './style.css';
+@import './styles/style.css';
 </style>

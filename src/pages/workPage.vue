@@ -1,6 +1,11 @@
 <template>
  
-    <p>testing testing</p>
+ <div id="workPage">
+    <!-- <p>testing testing</p> -->
+    <projBox></projBox>
+    <projBox></projBox>
+    <projBox></projBox>
+ </div>
   
 </template>
 
@@ -14,7 +19,7 @@ import projBox from '../components/projectBoxComp.vue'
 export default {
   name: 'work',
   components: {
-    // projBox
+    projBox
   }
   
 }
