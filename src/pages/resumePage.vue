@@ -2,12 +2,10 @@
  
  <div id="resumePage">
      <div id="downloadResumeButton">
-        <a href="#" class="resumeButton">Link Button</a>
      </div>
      <div id="embeddedResume">
-         eventually embed it here
+         <!-- <img src="../images/resume.pdf" width="800px" height="1000px"> -->
      </div>
-
    
  </div>
 
@@ -17,7 +15,10 @@
 
 <script>
 export default {
-  name: 'resume'
+  name: 'resume',
+  methods:{
+    
+  }
 
 }
 

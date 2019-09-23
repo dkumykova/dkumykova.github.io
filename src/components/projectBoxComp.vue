@@ -1,6 +1,7 @@
 <template>
 <div id="mainBox">
-    <h3 v-on:click="fillDescription">{{title}}</h3>
+    <h2 v-on:click="fillDescription">{{title}}</h2>
+    <h3>{{subtitle}}</h3>
     <p v-show="showDescription">{{description}}</p>
 </div>
 
@@ -14,10 +15,15 @@
 export default {
   data: function(){
     return{
-      showDescription: false,
-      title: "Test title",
-      description: "Sample descr  iption"
+      showDescription: false
+      // title: "Test title",
+      // description: "Sample descr  iption"
     }
+  },
+  props:{
+    title: String,
+    subtitle: String,
+    description: String
   },
   methods: {
     fillDescription: function(){
@@ -25,7 +31,7 @@ export default {
       if(this.showDescription == false){
         //this.title = "Test Title";
         this.showDescription = true;
-        this.description = "trueest shit ajdajsd";
+        
       } else {
         this.showDescription = false;
       }
