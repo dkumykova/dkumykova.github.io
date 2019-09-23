@@ -5,7 +5,7 @@
       <ul>
           <li id="testID" v-on:click="showResumePage">Resume</li>
           <li id="testID" v-on:click="showWorkPage">Projects</li>
-          <li id="testID" v-on:click="showMainPage">Home</li>
+          <li id="testID" v-on:click="showMainPage">Contact</li>
           <div >
             <img id="profileImg" v-on:click="showAboutPage" src="./images/profile_photo_1.png" width="60" height="70" cursor="pointer">
           </div>
