@@ -2,10 +2,11 @@
  
  <div id="aboutMe">
    <div id="photo">
-     <img src="../images/no_face.jpg" width="200" height="200">
+     <img src="../images/no_face.jpg" width="180" height="180">
    </div>
+   <br><br>
    <div id="blurb">
-     <h2>
+     <h2 style="margin-left:30%;">
        Hey There - I'm DK.
      </h2>
      <p> 
@@ -15,13 +16,14 @@
        or just for plain old fun. 
      </p>
    </div>
-  <br><br><br>
+  <br>
    <div id="contact">
-      If you want to ask about projects, work, or just chat, here are some links:
-      
-
-      <a href="https://www.linkedin.com/in/diana-kumykova-426b69176"><img src="../images/linkedin.svg" width="50" height="50"></a>
-      
+      If you want to ask about projects, work, or just chat, here are some ways to contact me:
+      <br><br>
+      <div id="links">
+        <a id="refPhoto" href="https://www.linkedin.com/in/diana-kumykova-426b69176"><img src="../images/linkedin.svg" width="50" height="50"></a>
+        <a id="refPhoto" href="#"><img src="../images/email.svg" width="50" height="50"></a>
+      </div>
    </div>
     
  </div>

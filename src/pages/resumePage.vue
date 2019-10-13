@@ -2,6 +2,13 @@
  
  <div id="resumePage">
      <div id="downloadResumeButton">
+        <form method="get" action="../images/resume.pdf">
+          <button type="submit">Download!</button>
+        </form>
+        <br><br>
+        <!-- <a href="../images/resume.pdf">example</a>
+        <iframe src="../images/resume.pdf" width="100%" height="500px">
+    </iframe> -->
      </div>
      <div id="embeddedResume">
          <!-- <img src="../images/resume.pdf" width="800px" height="1000px"> -->
