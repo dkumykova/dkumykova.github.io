@@ -24,6 +24,14 @@
       <resume></resume>
     </div>
 </div>
+
+<div id="mainPage">
+  <h2>Welcome to my page - how did you end up here lol</h2>
+
+  <h3>Maybe a small blurb here about me?</h3>
+
+  <h3>And some highlight video footage for karen + forest fighters and demo or something</h3>
+</div>
     
     <myFooter></myFooter>
 

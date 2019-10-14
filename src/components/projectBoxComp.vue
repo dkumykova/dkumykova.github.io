@@ -2,7 +2,9 @@
 <div id="mainBox">
     <h2 v-on:click="fillDescription">{{title}}</h2>
     <h3>{{subtitle}}</h3>
-    <p v-show="showDescription">{{description}}</p>
+    <div id="descriptionBox">
+      <p v-show="showDescription">{{description}}</p>
+    </div>
 </div>
 
 <!-- TODO: create physical template for the project box with title at top, image in background, and descrition on hover -->
@@ -15,7 +17,7 @@
 export default {
   data: function(){
     return{
-      showDescription: false
+      showDescription: true
       // title: "Test title",
       // description: "Sample descr  iption"
     }
