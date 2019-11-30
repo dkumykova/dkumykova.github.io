@@ -25,7 +25,7 @@
     </div>
 </div>
 
-<div id="mainPage">
+<div id="mainPage" v-show="showMain">
   <h2>Welcome to my page - how did you end up here lol</h2>
 
   <h3>Maybe a small blurb here about me?</h3>

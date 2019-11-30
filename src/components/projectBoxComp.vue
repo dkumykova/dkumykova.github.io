@@ -1,25 +1,18 @@
 <template>
-<div id="mainBox">
-    <h2 v-on:click="fillDescription">{{title}}</h2>
-    <h3>{{subtitle}}</h3>
+<div class="mainBox" @mouseenter="addOverlay" @mouseleave="removeOverlay">
+    <h2 >{{title}}</h2>
     <div id="descriptionBox">
       <p v-show="showDescription">{{description}}</p>
     </div>
 </div>
-
-<!-- TODO: create physical template for the project box with title at top, image in background, and descrition on hover -->
   
 </template>
-
-})
 
 <script>
 export default {
   data: function(){
     return{
-      showDescription: true
-      // title: "Test title",
-      // description: "Sample descr  iption"
+      showDescription: false
     }
   },
   props:{
@@ -28,29 +21,29 @@ export default {
     description: String
   },
   methods: {
-    fillDescription: function(){
-      
-      if(this.showDescription == false){
-        //this.title = "Test Title";
+    addOverlay: function(className){
+      console.log(className);
+      var desc = document.getElementsByClassName('Intern');
+       for(var i = 0; i < desc.length; i++){
+         desc[i].classList.add('mainBoxHover');
+
+       }
         this.showDescription = true;
-        
-      } else {
+    },
+    removeOverlay: function(){
+      var desc = document.getElementsByClassName('Intern');
+       for(var i = 0; i < desc.length; i++){
+          desc[i].classList.remove('mainBoxHover');
+       }
         this.showDescription = false;
-      }
-      
-      
     }
+    
   }
 }
 </script>
 
 
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style >
 @import '../styles/style.css';
-
-/* body{
-  margin-top: 100px;
-} */
 </style>

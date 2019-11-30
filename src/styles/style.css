@@ -70,15 +70,23 @@ li:active{
 }
 
 
-#mainBox {
-    background-color: lightblue;
+.mainBox {
     margin-bottom: 75px; 
-    background-color: #afcd97;
-    width: 75%;
-    height: 300px;
+    background-color: #afcd97; 
+    background-size: contain;
+    width: 550px;
+    height: 350px;
     box-shadow: 5px 5px 7px 0px #677e52;
     padding: 2%;
+    grid-area: 'mainBox';
+    text-align: center;
+    color: white; 
   }
+
+.mainBoxHover{
+    background-color: rgb(54, 54, 54);
+    background-blend-mode: multiply;
+} 
 
 
 #testID{
@@ -98,16 +106,16 @@ li:active{
 }
 
 .resumeButton{
-background-color: #4CAF50;
-border: none;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 4px 2px;
-cursor: pointer;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 h2{
@@ -122,7 +130,7 @@ h3{
 }
 
 #photo{
-    margin-left: 35%;
+    margin-left: 30%;
 }
 
 #refPhoto{
@@ -130,9 +138,88 @@ h3{
 }
 
 #links{
-    margin-left: 25%;
+    margin-left: 20%;
 }
 
 #workPage{
-    margin-left:20%;
+    margin-left:10%;
+}
+
+.box1 { grid-area: boxtop;}
+.box2 { grid-area: boxtop2; }
+.box3 { grid-area: boxtop3; }
+.box4 { grid-area: boxtop4; }
+.box5 { grid-area: boxtop5; }
+.box6 {grid-area: boxtop6;}
+.box7 {grid-area: boxtop7;}
+.box8 {grid-area: boxtop8;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'boxtop boxtop2'
+    ;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-areas:
+      
+      'boxtop3 boxtop4'
+      'boxtop5 boxtop6'
+      'boxtop7 boxtop8';
+  }
+
+.descriptionShadow{
+    background-color: rgb(58, 57, 57);
+    opacity: .5;
+}
+
+.Karen{
+    background-image: url('../images/CallofKarenScreenshot.png');
+    background-size: 590px 330px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+
+}
+
+.Doll{
+    background-image: url('../images/dolls_example.png');
+    background-size: 590px 330px;
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+
+
+}
+
+.Intern{
+    background-image: url('../images/programming.jpg');
+    background-size: 590px 330px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+
+
+}
+
+.UXDM{
+    background-image: url('../images/uxdm-logo-l.png');
+    background-size: 590px 330px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+
+}
+
+.dragonfly{
+    background-image: url('../images/dragonfly_sample.png');
+    background-size: 590px 330px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.fighters{
+    background-image: url('../images/forest_fighters.png');
+    background-size: 590px 330px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
 }

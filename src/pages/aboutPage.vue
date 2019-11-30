@@ -2,7 +2,7 @@
  
  <div id="aboutMe">
    <div id="photo">
-     <img src="../images/no_face.jpg" width="180" height="180">
+     <img src="../images/hooligan.jpg" width="230" height="200">
    </div>
    <br><br>
    <div id="blurb">
@@ -23,6 +23,7 @@
       <div id="links">
         <a id="refPhoto" href="https://www.linkedin.com/in/diana-kumykova-426b69176"><img src="../images/linkedin.svg" width="50" height="50"></a>
         <a id="refPhoto" href="#"><img src="../images/email.svg" width="50" height="50"></a>
+        <a id="refPhoto" href="https://www.github.com/dkumykova"><img src="../images/github-logo.png" width="50" height="50"></a>
       </div>
    </div>
     
