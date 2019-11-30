@@ -21,17 +21,20 @@ export default {
     description: String
   },
   methods: {
-    addOverlay: function(className){
-      console.log(className);
-      var desc = document.getElementsByClassName('Intern');
-       for(var i = 0; i < desc.length; i++){
-         desc[i].classList.add('mainBoxHover');
-
-       }
-        this.showDescription = true;
-    },
+     addOverlay: function(className){
+       console.log('title');
+       console.log(this.title);
+       var desc = document.getElementsByClassName('mainBox');
+        for(var i = 0; i < desc.length; i++){
+          if(this.title.includes(desc[i].classList[1])){
+            desc[i].classList.add('mainBoxHover');
+          }
+          console.log(desc[i].classList[1]);
+        }
+         this.showDescription = true;
+     },
     removeOverlay: function(){
-      var desc = document.getElementsByClassName('Intern');
+      var desc = document.getElementsByClassName('mainBox');
        for(var i = 0; i < desc.length; i++){
           desc[i].classList.remove('mainBoxHover');
        }

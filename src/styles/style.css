@@ -210,15 +210,22 @@ h3{
 
 }
 
-.dragonfly{
+.Dragonfly{
     background-image: url('../images/dragonfly_sample.png');
     background-size: 590px 330px;
     background-repeat: no-repeat;
     background-position-y: bottom;
 }
 
-.fighters{
+.Fighters{
     background-image: url('../images/forest_fighters.png');
+    background-size: 590px 330px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.Demo{
+    background-image: url('../images/vrDemoStill.png');
     background-size: 590px 330px;
     background-repeat: no-repeat;
     background-position-y: bottom;
