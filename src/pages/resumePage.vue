@@ -1,17 +1,19 @@
 <template>
  
  <div id="resumePage">
-     <div id="downloadResumeButton">
+     <!-- <div id="downloadResumeButton">
         <form method="get" action="../images/resume.pdf">
           <button type="submit">Download!</button>
         </form>
         <br><br>
-        <!-- <a href="../images/resume.pdf">example</a>
+         <a href="../images/resume.pdf">example</a>
         <iframe src="../images/resume.pdf" width="100%" height="500px">
     </iframe> -->
-     </div>
+     
      <div id="embeddedResume">
          <!-- <img src="../images/resume.pdf" width="800px" height="1000px"> -->
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vSuf7rry0ZI7hufHn9V_83tidC0aPPV6W7xoeSSEEKh-E54O5_Qsbuym5eesxTqzWTaib338ml0mtYU/pub?embedded=true"
+        height="1000px" width="60%"></iframe>
      </div>
    
  </div>

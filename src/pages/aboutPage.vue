@@ -2,7 +2,7 @@
  
  <div id="aboutMe">
    <div id="photo">
-     <img src="../images/hooligan.jpg" width="230" height="200">
+     <img src="../images/profile_2.jpg" width="250" height="320">
    </div>
    <br><br>
    <div id="blurb">

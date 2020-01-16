@@ -6,6 +6,9 @@ set -e
 #build
 npm run build
 
+#run server
+npm run serve
+
 #navigate into build output directory
 cd dist
 

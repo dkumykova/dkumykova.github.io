@@ -26,11 +26,21 @@
 </div>
 
 <div id="mainPage" v-show="showMain">
-  <h2>Welcome to my page - how did you end up here lol</h2>
+  <div class="intro">
+  <h2>Hi! Welcome to my little project hub. Feel free to take a look around, check out what I've done and what I'm working on right now!</h2>
+  <h3>If you want to chat about projects, work, games, or really anything, head over to my about page for contact details!</h3>
+  </div>
+  <div class="CurrentProjects">
 
-  <h3>Maybe a small blurb here about me?</h3>
-
-  <h3>And some highlight video footage for karen + forest fighters and demo or something</h3>
+  <h3>Current Projects:</h3>
+   <video width="320" height="240" controls>
+    <source src="https://www.youtube.com/watch?v=4rx7Z99PztU&feature=youtu.be" type="video/mp4">
+    Your browser does not support the video tag.
+  </video> 
+  </div>
+  <div class="OldProjects">
+  <h3>Older Projects:</h3>
+  </div>
 </div>
     
     <myFooter></myFooter>

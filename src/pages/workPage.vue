@@ -11,7 +11,7 @@
       of webpages."></projBox>
     </div>
    <div class="box2">
-      <projBox class="UXDM" title="Software Developer, UXDM Lab"  description="
+      <projBox class="UXDM" title="UXDM Software Developer"  description="
       Working with a team of PHD, graduate, and undergraduate students under 
       a WPI professor to research innovation in User Experience Design. 
       Worked independently on a game in C# that will utilize Tobii eye-tracking 
@@ -31,20 +31,34 @@
       </projBox>
    </div>
    <div class="box4">
-      <projBox  class="Fighters" title="Forest Fighters"  description="link to video"></projBox>
+      <projBox  class="Fighters" title="Forest Fighters"  description="2D fighting game created in GameMaker as a local game jam project - play as birch,
+      oak, or any other of your favorite muscley trees and fight to the death!"></projBox>
    </div>
    <div class="box5">
-      <projBox  class="Dragonfly" title="Dragonfly Game Engine and Game" description="hoo boi c++"></projBox>
+      <projBox  class="Error" title="Fatal Error" description="2D fighting game created in Dragonfly Game Engine. In this game you and your opponent 
+      fight as one of the 5 most well-known programming languages, and are pitted against one another in order to show off your language’s most outstanding 
+      abilities. Set in the forbidden block of memory from which no language can allocate, players fight to death in a Tekken-like 1v1 arena, and take out 
+      aggression against their most hated language. You can play as Python, C, C++, Lisp, or Java, and prove once and for all which is the best programming language!"></projBox> 
+      
    </div>
    <div class="box6">
-    <projBox  class="Demo" title="VR Demo"  description="link to video?"></projBox>
+     <projBox  class="Boids" title="Birds and Boids" description="Birds and Boids is designed to be a tranquil, relaxing experience that allows users to interact
+     with boids as they float across the screen and bring music where they go. Uses the Leap Motion for more immersive boid-to-human interaction.">
+     </projBox>
    </div>
+   <!-- <div class="box7">
+    <projBox  class="Demo" title="VR Demo"  description="link to video?"></projBox>
+   </div> -->
    <div class="box7">
-     <projBox  class="Doll" title="Russian Doll Generator" description="Utilized paramterized procedural
-      generation to create a customizable Russian Doll set generator! Completed during the last half of Procjam 2019.">
-      </projBox>
+      <projBox  class="Dragonfly" title="Dragonfly Game Engine" description="Created fully functional ASCII-based game engine in C++, utilizing the SFML library for grahphics
+      and audio. Implemented functionality such as game loop manager, graphics and audio managers, game objects, and 2D physics."></projBox>
+    
    </div>
    <div class="box8">
+      <projBox  class="Doll" title="Russian Doll Generator" description="Utilized paramterized procedural
+      generation to create a customizable Russian Doll set generator! Completed during the last half of Procjam 2019.">
+      </projBox>
+
     <!-- <projBox title="AI For Games" subtitle="IMGD4100" description="cool and funky classwork"></projBox> -->
    </div>
   </div>
