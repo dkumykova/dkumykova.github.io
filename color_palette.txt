@@ -1,0 +1,5 @@
+light green: afcd97
+dark green: 677e52
+medium green: b7ca79
+tan/beige: f5e8b1
+brown: 88725b

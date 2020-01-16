@@ -1,0 +1,251 @@
+#app{
+    width: 100%;
+}
+body{
+    background-color: #fff7d4;
+    margin: 0px;
+    display: flex;
+}
+  
+#myNav {
+    list-style-type: none;
+    padding: 0;
+    position: fixed; 
+    height: 70px;
+    background-color: #b7ca79;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 2px 2px 2px 0px #88725b;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#mainPage{
+    margin-left: 20%;
+}
+
+ul {
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    width: 100%;
+}
+li {
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 1em;
+    float: right;
+    color: white;
+    border-left: 5px;
+    border-color: black;
+    cursor: pointer;
+}
+
+  
+li:hover{
+    color: black;
+}
+  
+li:active{
+      color: #677e52;
+}
+
+#myContent{
+    margin-top: 100px;
+}
+
+#myFooter{
+    list-style-type: none;
+    padding: 0;
+    position: fixed; /*floating nav*/
+    bottom: 10px;
+    margin-left: 0px;
+    font-size: .5em;
+    
+    /* color: gray; */
+}
+
+#myFooter li{
+    color: black;
+    margin: 0 10px;
+    float: right;
+}
+
+
+.mainBox {
+    margin-bottom: 75px; 
+    background-color: #afcd97; 
+    background-size: contain;
+    width: 550px;
+    height: 350px;
+    box-shadow: 5px 5px 7px 0px #677e52;
+    padding: 2%;
+    grid-area: 'mainBox';
+    text-align: center;
+    color: white; 
+  }
+
+.mainBoxHover{
+    background-color: rgb(54, 54, 54);
+    background-blend-mode: multiply;
+} 
+
+
+#testID{
+    margin-top: 25px;
+    
+}
+
+#profileImg{
+    cursor: pointer;
+}
+
+#aboutMe{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.resumeButton{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h2{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    font-size: 1.5em;
+}
+
+h3{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+#photo{
+    margin-left: 30%;
+}
+
+#refPhoto{
+    margin-left: 12%;
+}
+
+#links{
+    margin-left: 17%;
+}
+
+#workPage{
+    margin-left:10%;
+}
+
+.box1 { grid-area: boxtop;}
+.box2 { grid-area: boxtop2; }
+.box3 { grid-area: boxtop3; }
+.box4 { grid-area: boxtop4; }
+.box5 { grid-area: boxtop5; }
+.box6 {grid-area: boxtop6;}
+.box7 {grid-area: boxtop7;}
+.box8 {grid-area: boxtop8;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'boxtop boxtop2'
+    ;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-areas:
+      
+      'boxtop3 boxtop4'
+      'boxtop5 boxtop6'
+      'boxtop7 boxtop8';
+  }
+
+.descriptionShadow{
+    background-color: rgb(58, 57, 57);
+    opacity: .5;
+}
+
+.Karen{
+    background-image: url('../images/CallofKarenScreenshot.jpg');
+    background-size: 590px 330px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+
+}
+
+.Doll{
+    background-image: url('../images/dolls_example.png');
+    background-size: 590px 330px;
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+
+
+}
+
+.Intern{
+    background-image: url('../images/programming.jpg');
+    background-size: 590px 330px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+
+
+}
+
+.UXDM{
+    background-image: url('../images/uxdm-logo-l.png');
+    background-size: 590px 330px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+
+}
+
+.Dragonfly{
+    background-image: url('../images/dragonfly_sample.png');
+    background-size: 590px 330px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.Fighters{
+    background-image: url('../images/forest_fighters.png');
+    background-size: 590px 330px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.Demo{
+    background-image: url('../images/vrDemoStill.png');
+    background-size: 590px 330px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.Error{
+    background-image: url('../images/fatalError.jpg');
+    background-size: 590px 330px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.Boids{
+    background-image: url('../images/Boids.jpg');
+    background-size: 590px 330px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+#embeddedResume{
+    margin-left: 30%;
+}
