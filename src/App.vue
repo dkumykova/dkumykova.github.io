@@ -33,13 +33,18 @@
   <div class="CurrentProjects">
 
   <h3>Current Projects:</h3>
-   <video width="320" height="240" controls>
-    <source src="https://www.youtube.com/watch?v=4rx7Z99PztU&feature=youtu.be" type="video/mp4">
-    Your browser does not support the video tag.
-  </video> 
+    
   </div>
   <div class="OldProjects">
   <h3>Older Projects:</h3>
+  <br><br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/4rx7Z99PztU?start=80" 
+    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+    <br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tGfXXczZ4Js"
+     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+     allowfullscreen></iframe>
   </div>
 </div>
     
