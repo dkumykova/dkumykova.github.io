@@ -122,7 +122,7 @@ li:active{
 h2{
     margin-block-end: 0px;
     margin-block-start: 0px;
-    font-size: 1.5em;
+    font-size: 1.5em; 
 }
 
 h3{
@@ -170,6 +170,14 @@ h3{
       'boxtop5 boxtop6'
       'boxtop7 boxtop8';
   }
+
+.video-grid{
+    display:grid;
+    grid-template-areas: 'vid1 vid2';
+}
+
+.boidVid{grid-area: vid1;}
+.fatalVid{grid-area: vid2;}
 
 .descriptionShadow{
     background-color: rgb(58, 57, 57);
@@ -249,3 +257,20 @@ h3{
 #embeddedResume{
     margin-left: 30%;
 }
+
+.intro{
+    margin-right: 25%;
+}
+.intro h2{
+    color: #8f5e2a;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.intro h3, .CurrentProjects h3, .OldProjects h3{
+    margin-top: 5%;
+    color: #72410c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
