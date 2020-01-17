@@ -27,16 +27,22 @@
 
 <div id="mainPage" v-show="showMain">
   <div class="intro">
-  <h2>Hi! Welcome to my little project hub. Feel free to take a look around, check out what I've done <br>and what I'm working on right now!</h2>
+  <h2 style="margin-left:10%">Hi! Welcome to my little project hub. Feel free to take a look around, check out what I've done <br>and what I'm working on right now!</h2>
   <h3>If you want to chat about projects, work, games, or really anything, head over to my about page for contact details!</h3>
   </div>
   <div class="CurrentProjects">
 
     <h3>Current Projects:</h3>
+    <h3 style="margin-top:0%;margin-left:40%; margin-bottom:3%;">Call Of Karen</h3>  
+    <div class="gif-grid">
+    <img class="meatGif" src="./images/meatloaf.gif" alt="animated" />
     
+    <img class="trumbusGif" src="./images/trumbus.gif" alt="animated" />
+    </div>
   </div>
   <div class="OldProjects">
     <h3>Older Projects:</h3>
+    
   
   <div class="video-grid">
 

@@ -6,13 +6,12 @@
    </div>
    <br><br>
    <div id="blurb">
-     <h2 style="margin-left:30%;">
-       Hey There - I'm DK.
+     <h2 style="margin-left:15%;">
+       Hey There - I'm Diana Kumykova.
      </h2>
      <p> 
        I am currently pursuing bachelors in Computer Science as well as Interactive Media and Game Development (Tech)
-       at Worcester Polytechnic Institute. I have a passion for something probably but don't know what that is 
-       - maybe tech? I love games and telling stories through them, whether they be for escapism, to make a statement,
+       at Worcester Polytechnic Institute. I love games and telling stories through them, whether they be for escapism, to make a statement,
        or just for plain old fun. 
      </p>
    </div>

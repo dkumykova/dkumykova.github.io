@@ -50,14 +50,25 @@
     <projBox  class="Demo" title="VR Demo"  description="link to video?"></projBox>
    </div> -->
    <div class="box7">
+      <projBox  class="Website" title="Personal Website" description="Portfolio website built from scratch using VueJs and NodeJs.">
+      </projBox>
+
+    <!-- <projBox title="AI For Games" subtitle="IMGD4100" description="cool and funky classwork"></projBox> -->
+   </div>
+   <div class="box8">
       <projBox  class="Dragonfly" title="Dragonfly Game Engine" description="Created fully functional ASCII-based game engine in C++, utilizing the SFML library for grahphics
       and audio. Implemented functionality such as game loop manager, graphics and audio managers, game objects, and 2D physics."></projBox>
     
    </div>
-   <div class="box8">
+   <div class="box9">
       <projBox  class="Doll" title="Russian Doll Generator" description="Utilized paramterized procedural
       generation to create a customizable Russian Doll set generator! Completed during the last half of Procjam 2019.">
       </projBox>
+   </div>
+      <div class="box10">
+      </div>
+      
+      
 
     <!-- <projBox title="AI For Games" subtitle="IMGD4100" description="cool and funky classwork"></projBox> -->
    </div>
