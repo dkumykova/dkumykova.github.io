@@ -27,7 +27,7 @@
 
 <div id="mainPage" v-show="showMain">
   <div class="intro">
-  <h2>Hi! Welcome to my little project hub. Feel free to take a look around, check out what I've done and what I'm working on right now!</h2>
+  <h2>Hi! Welcome to my little project hub. Feel free to take a look around, check out what I've done <br>and what I'm working on right now!</h2>
   <h3>If you want to chat about projects, work, games, or really anything, head over to my about page for contact details!</h3>
   </div>
   <div class="CurrentProjects">

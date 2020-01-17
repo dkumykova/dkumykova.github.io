@@ -20,7 +20,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #mainPage{
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 ul {
@@ -259,7 +259,7 @@ h3{
 }
 
 .intro{
-    margin-right: 25%;
+    margin-right: 20%;
 }
 .intro h2{
     color: #8f5e2a;
@@ -268,7 +268,14 @@ h3{
 
 }
 
-.intro h3, .CurrentProjects h3, .OldProjects h3{
+.intro h3{
+    margin-top: 2%;
+    margin-left: 10%;
+    color: #72410c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.CurrentProjects h3, .OldProjects h3{
     margin-top: 5%;
     color: #72410c;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
