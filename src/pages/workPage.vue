@@ -1,5 +1,16 @@
 <template>
 <div id="workPage">
+   <div id="mainPage">
+  <div class="intro">
+    <h1>Diana Kumykova</h1>
+    <!-- <div class="mainPhoto">
+      <img src="../images/profile_photo_1.png" width="250" height="300">
+    </div> -->
+    <h1>Programmer | Game Developer</h1>
+  <h2> Hi! Welcome to my little project hub. Feel free to take a look around, check out what I've done <br>and what I'm working on right now!</h2>
+  <h3>If you want to chat about projects, work, games, or really anything, head over to my about page for contact details!</h3>
+  </div>
+   </div>
   <h1>Work Experience</h1>
   <div class="grid-container">
     <div class="box1" >
@@ -73,7 +84,7 @@
     <!-- <projBox title="AI For Games" subtitle="IMGD4100" description="cool and funky classwork"></projBox> -->
    </div>
   </div>
-</div>
+<!-- </div> -->
 </template>
 
 <style scoped>

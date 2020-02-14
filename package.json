@@ -10,6 +10,7 @@
     "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "core-js": "^2.6.5",
     "normalize.css": "^8.0.1",
     "pdfjs-dist": "^2.1.266",
