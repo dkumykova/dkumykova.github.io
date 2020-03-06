@@ -1,0 +1,51 @@
+.nav{
+    margin: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:sticky;
+}
+.jumbotron{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+    /*do cool css animations in here, falling snow or sparkles or something*/
+}
+.row{
+    padding:2rem;
+    align-items: center;
+    @media (min-width: 576px) { ... }
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) { ... }
+
+    /* // Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) { ... }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) { ... }
+}
+
+.card {
+    color: white;
+    text-align: center;
+
+}
+
+.cardhover{
+    background-color: black;
+    background-blend-mode: overlay;
+    opacity: 0.5;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.bio{
+    margin-bottom: 1.5rem;
+
+}
+
+.project-top{
+
+}
+
