@@ -10,18 +10,28 @@
     /*do cool css animations in here, falling snow or sparkles or something*/
 }
 .row{
-    padding:2rem;
+    
     align-items: center;
-    @media (min-width: 576px) { ... }
+    padding-bottom:3rem;
+    
+    @media (min-width: 576px) { 
+
+     }
 
     /* Medium devices (tablets, 768px and up) */
-    @media (min-width: 768px) { ... }
+    @media (min-width: 768px) { 
+        display: block;
+     }
 
     /* // Large devices (desktops, 992px and up) */
-    @media (min-width: 992px) { ... }
+    @media (min-width: 992px) { 
+        padding-bottom:3rem;
+     }
 
     /* // Extra large devices (large desktops, 1200px and up) */
-    @media (min-width: 1200px) { ... }
+    @media (min-width: 1200px) { 
+        
+     }
 }
 
 .card {
@@ -47,5 +57,9 @@
 
 .project-top{
 
+}
+
+.game-title{
+    
 }
 

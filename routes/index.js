@@ -15,7 +15,10 @@ router.get('/game', function(req, res, next) {
    + 'ungrateful child. If that wasn’t bad enough, the stars are right and Cthulhu is descending upon the world,' +  
   'starting with her home. Play through minigames of what a suburban mom would do as her house slowly' + 
   ' descends into chaos.', 
-      role:'Lead Gameplay and Audio Programmer', additional:'Built in Unreal Engine 4, 9 month development time'});
+      role:'Lead Gameplay and Audio Programmer', additional:'Built in Unreal Engine 4, 9 month development time',
+    picture1: '../../images/meatloaf.gif',
+    picture2: '../../images/books.gif',
+    trailer: 'https://www.youtube.com/embed/TGbZYUslGhQ'});
 });
 
 // router.get('/contact', function(req, res, next) {

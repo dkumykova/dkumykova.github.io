@@ -1,22 +1,31 @@
 <div class="container">
     <div class="project-top flex-column text-center">
-        <h1 class="game-title"><%= title %></h1>
+        <div class="jumbotron">
+            <h2 class="display-4"><%= title %></h2>
+        </div>
+        <!-- <h2 class="game-title"><%= title %></h2> -->
+
+        <div class="embed-responsive embed-responsive-16by9 w-75 h-75 ">
+            <iframe class="embed-responsive-item" src="<%= trailer %>" allowfullscreen></iframe>
+        </div>
+
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/TGbZYUslGhQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
     </div>
-    <h3 class="text-center mb-1"><%= synopsis %></h3>
+    <h4 class="text-center mb-1"><%= synopsis %></h4>
     <br>
-    <h3 class="text-center mb-1"><%= role %></h3>
+    <h4 class="text-center mb-1"><%= role %></h4>
     <br>
     <div class="visuals ">
         <div class="row">
             <div class="col-sm-6" >
             <div class="card " style="width: 25rem;">
-                <img src="../../images/meatloaf.gif" class="card-img" alt="...">
+                <img src="<%= picture1 %>" class="card-img" alt="...">
                 <div class="card-img-overlay"></div>
             </div>
         </div>
             <div class="col-sm-6" >
                 <div class="card " style="width: 25rem;">
-                    <img src="../../images/books.gif" class="card-img" alt="...">
+                    <img src="<%= picture2 %>" class="card-img" alt="...">
                     <div class="card-img-overlay" ></div>
                 </div>
             </div>
