@@ -1,18 +1,32 @@
 .nav{
-    margin: 2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1rem;
+    font-family: 'Vollkorn', serif;
     position:sticky;
 }
+
+a{
+    color: #394d4d;
+
+}
+a:hover{
+    color:#dae1dd;
+}
 .jumbotron{
+   
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background-color:#c3d2e5;
+    /*do cool css animations in here, falling snow or sparkles or something*/
+}
+.start-page{
     margin-left: 10rem;
     margin-right: 10rem;
-    text-align: center;
-    /*do cool css animations in here, falling snow or sparkles or something*/
 }
 .row{
     
     align-items: center;
     padding-bottom:3rem;
+   
     
     @media (min-width: 576px) { 
 
@@ -34,9 +48,15 @@
      }
 }
 
+.col-sm-5{
+    margin:1rem;
+
+}
+
 .card {
     color: white;
     text-align: center;
+    font-family: 'Vollkorn', serif;
 
 }
 
@@ -51,15 +71,47 @@
 }
 
 .bio{
-    margin-bottom: 1.5rem;
-
+    font-family: 'Vollkorn', serif
 }
 
-.project-top{
-
-}
-
-.game-title{
+.game-top{
+    background-color: #c3d2e5;
+    font-family: 'Playfair Display', serif;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     
 }
+  
+  /* -- Animated hr -- */
+  
+.separator {
+background: #adb2a4;
+height: 1px;
+overflow: hidden;
+position: relative;
+
+border: 0;
+clear: both;
+display: block;
+margin: 2.4rem auto;
+text-align: center;
+width: 100%;
+}
+
+.video-trailer{
+    display:block;
+}
+
+.game-paragraph{
+    font-family: 'Vollkorn', serif;
+}
+
+body{
+    color: #394d4d;
+    background-color: #eaedf5e8;
+}
+
+/*font-family: 'Titillium Web', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Vollkorn', serif;*/
 

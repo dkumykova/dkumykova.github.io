@@ -1,21 +1,23 @@
-<div class="container">
-    <div class="project-top flex-column text-center">
-        <div class="jumbotron">
-            <h2 class="display-4"><%= title %></h2>
-        </div>
-        <!-- <h2 class="game-title"><%= title %></h2> -->
-
-        <div class="embed-responsive embed-responsive-16by9 w-75 h-75 ">
-            <iframe class="embed-responsive-item" src="<%= trailer %>" allowfullscreen></iframe>
-        </div>
-
-        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/TGbZYUslGhQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<div class="project-top flex-column text-center">
+    <div class="game-top w-100 mb-4">
+        <h1 class="game-info"><%= title %></h1>
     </div>
-    <h4 class="text-center mb-1"><%= synopsis %></h4>
-    <br>
-    <h4 class="text-center mb-1"><%= role %></h4>
-    <br>
-    <div class="visuals ">
+    <div class="embed-responsive embed-responsive-16by9 w-50 h-50 video-trailer mx-auto">
+        <iframe class="embed-responsive-item" src="<%= trailer %>" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="container">
+    <hr class="separator">
+    <div class="game-paragraph">
+        <h4 class="text-center mb-1 ml-4 mr-4"><%= synopsis %></h4>
+        <br>
+        <h4 class="text-center mb-1">Role: <%= role %></h4>
+        <br>
+        <h4 class="text-center mb-1"><%= additional %></h4>
+    </div>
+    <hr class="separator">
+    <h4 class="text-center mb-5 game-paragraph">Gallery</h4>
+    <div class="gallery ml-5">
         <div class="row">
             <div class="col-sm-6" >
             <div class="card " style="width: 25rem;">
@@ -33,5 +35,5 @@
     </div>
 
 
-    <h3 class="text-center mb-1"><%= additional %></h3>
+    
 </div>
