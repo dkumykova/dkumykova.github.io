@@ -67,7 +67,10 @@ a:hover{
 }
 
 .card-img-overlay{
-    opacity: 0;
+    background-color: black;
+    background-blend-mode: overlay;
+    display: none;
+    opacity: 0.5;
 }
 
 .bio{

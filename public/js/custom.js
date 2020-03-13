@@ -4,8 +4,11 @@ $(document).ready(function(){
 });
 
 function overlay(el){
-    el.classList.add('cardhover');
-    el.style.opacity = '.5';
+    console.log('hell??');
+    var k = document.getElementsByClassName('card-img-overlay');
+    console.log({k})
+    k[0].style.display = 'block';
+    // el.style.opacity = '.5';
 }
 
 
