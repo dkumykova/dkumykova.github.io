@@ -3,17 +3,17 @@
         <h1 class="game-info"><%= title %></h1>
     </div>
     <div class="embed-responsive embed-responsive-16by9 w-50 h-50 video-trailer mx-auto">
-        <iframe class="embed-responsive-item" src="<%= trailer %>" allowfullscreen></iframe>
+        <iframe class="embed-responsive-item" src="<%= trailer%>" allowfullscreen></iframe>
     </div>
 </div>
 <div class="container">
     <hr class="separator">
     <div class="game-paragraph">
+        <h4 class="text-center mb-1"><strong>Role:</strong> <%= role %></h4>
+        <br>
         <h4 class="text-center mb-1 ml-4 mr-4"><%= synopsis %></h4>
         <br>
-        <h4 class="text-center mb-1">Role: <%= role %></h4>
-        <br>
-        <h4 class="text-center mb-1"><%= additional %></h4>
+        <h4 class="text-center mb-1"><strong>Tools: </strong><%= tools %></h4>
     </div>
     <hr class="separator">
     <h4 class="text-center mb-5 game-paragraph">Gallery</h4>
@@ -22,13 +22,11 @@
             <div class="col-sm-6" >
             <div class="card " style="width: 25rem;">
                 <img src="<%= picture1 %>" class="card-img" alt="...">
-                <div class="card-img-overlay"></div>
             </div>
         </div>
             <div class="col-sm-6" >
                 <div class="card " style="width: 25rem;">
                     <img src="<%= picture2 %>" class="card-img" alt="...">
-                    <div class="card-img-overlay" ></div>
                 </div>
             </div>
         </div>

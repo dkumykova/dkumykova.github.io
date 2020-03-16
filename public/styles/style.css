@@ -15,7 +15,7 @@ a:hover{
    
     text-align: center;
     font-family: 'Playfair Display', serif;
-    background-color:#c3d2e5;
+    background-color:#fce6ac;
     /*do cool css animations in here, falling snow or sparkles or something*/
 }
 .start-page{
@@ -60,17 +60,34 @@ a:hover{
 
 }
 
-.cardhover{
-    background-color: black;
-    background-blend-mode: overlay;
-    opacity: 0.5;
+.card:hover .overlay{
+    opacity:.7;
 }
 
-.card-img-overlay{
-    background-color: black;
-    background-blend-mode: overlay;
-    display: none;
-    opacity: 0.5;
+.overlay{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3e687e;
+}
+
+.card-title{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    opacity:1;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .bio{
@@ -78,17 +95,15 @@ a:hover{
 }
 
 .game-top{
-    background-color: #c3d2e5;
+    background-color: #e5a977;
     font-family: 'Playfair Display', serif;
     padding-top: 5rem;
     padding-bottom: 5rem;
     
 }
   
-  /* -- Animated hr -- */
-  
 .separator {
-background: #adb2a4;
+background: #c4e5d4;
 height: 1px;
 overflow: hidden;
 position: relative;
@@ -111,7 +126,7 @@ width: 100%;
 
 body{
     color: #394d4d;
-    background-color: #eaedf5e8;
+    /* background-color: #eaedf5e8; */
 }
 
 /*font-family: 'Titillium Web', sans-serif;
