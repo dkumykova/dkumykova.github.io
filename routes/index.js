@@ -10,6 +10,10 @@ router.get('/about', function(req, res, next) {
   res.render('about');
 });
 
+router.get('/resume', function(req, res, next) {
+  res.render('resume');
+});
+
 router.get('/karen', function(req, res, next) {
   res.render('game', {title: 'Call Of Karen', synopsis: ' Karen is a typical 1950s suburban housewife, trapped in an unhappy marriage and taking care of an '
    + 'ungrateful child. If that wasn’t bad enough, the stars are right and Cthulhu is descending upon the world,' +  
