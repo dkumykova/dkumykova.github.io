@@ -1,0 +1,25 @@
+<div class="project-top flex-column text-center">
+    <div class="game-top w-100 mb-4">
+        <h1 class="game-info"><%= title %></h1>
+    </div>
+    <% if (image == 'n') { %>
+    <!-- <% include ./nav %> -->
+    <div class="embed-responsive embed-responsive-16by9 video-trailer mx-auto">
+        <iframe class="embed-responsive-item" src="<%= trailer%>" ></iframe>
+    </div> 
+    <% } else { %>
+        <img src="<%= trailer%>" class="img-fluid" alt="Responsive image">
+    <% }  %>
+  
+</div>
+<div class="container">
+    <hr class="separator">
+    <div class="game-paragraph">
+        <h4 class="text-center mb-1"><strong>Role:</strong> <%= role %></h4>
+        <br>
+        <h4 class="text-center mb-1 ml-4 mr-4"><%= synopsis %></h4>
+        <br>
+        <h4 class="text-center mb-1"><strong>Tools: </strong><%= tools %></h4>
+    </div>
+    
+</div>

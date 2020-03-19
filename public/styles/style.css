@@ -1,0 +1,325 @@
+.nav{
+    margin: 1rem;
+    font-family: 'Vollkorn', serif;
+    position:sticky;
+}
+
+a{
+    color: #394d4d;
+
+}
+a:hover{
+    color:#dae1dd;
+}
+.jumbotron{
+   
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background-color:#fce6ac;
+    /*do cool css animations in here, falling snow or sparkles or something*/
+}
+.start-page{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.row{
+    
+    align-items: center;
+    padding-bottom:3rem;
+   
+}
+
+.col-sm-5{
+    margin-left:2rem;
+    margin-right:1rem;
+    margin-top:2rem;
+  
+
+}
+
+.card {
+    color: white;
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    
+
+}
+
+.card:hover .overlay{
+    opacity:.7;
+}
+
+.overlay{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3e687e;
+}
+
+.card-title{
+    color: white;
+    /* font-size: 2rem; */
+    position: absolute;
+    opacity:1;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.bio{
+    font-family: 'Vollkorn', serif
+}
+
+.game-top{
+    background-color: #e5a977;
+    font-family: 'Playfair Display', serif;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+}
+  
+.separator {
+    background: #c4e5d4;
+    height: 1px;
+    overflow: hidden;
+    position: relative;
+
+    border: 0;
+    clear: both;
+    display: block;
+    margin: 2.4rem auto;
+    text-align: center;
+    width: 100%;
+}
+
+.video-trailer{
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+.game-paragraph{
+    font-family: 'Vollkorn', serif;
+}
+
+body{
+    color: #394d4d;
+    /* background-color: #eaedf5e8; */
+}
+#refPhoto{
+    margin-left:1rem;
+}
+
+.container {
+    flex-direction: column;
+  }
+  .display-4{
+    font-size: 1.5rem;
+}
+textarea{
+    width:15em;
+    height:15em;
+}
+h4{
+    font-size:.9rem;
+}
+.github-pic{
+    width:25px;
+    height:25px;
+}
+.links{
+    font-size:.8rem;
+}
+
+
+@media (min-width: 576px) { 
+
+    .col-sm-5 {
+        width: 100%;
+        max-width: 100%;
+        margin-left:0rem;
+    }
+    .card{
+        width:25rem;
+        
+    }
+    .card-title{
+        font-size: 1.5rem;
+    
+    }
+    .display-4{
+        font-size: 2rem;
+    }
+    .start-page{
+        margin-left:3rem;
+        margin-right:3rem;
+    }
+    .row{
+        padding-bottom: 0rem;
+    }
+    textarea{
+        width:20em;
+        height:15em;
+    }
+    h4{
+        font-size:1rem;
+    }
+    .game-top{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        
+    }
+    .github-pic{
+        width:25px;
+        height:25px;
+    }
+    
+}
+
+@media (min-width: 768px) { 
+
+    .col-sm-5 {
+        width: 100%;
+        max-width: 100%;
+        margin-left:2rem;
+    }
+    .card{
+        width:30rem;
+    }
+    .card-title{
+        font-size: 3rem;
+    }
+    .display-4{
+        font-size: 2rem;
+    }
+    .start-page{
+        margin-left:4rem;
+        margin-right:4rem;
+    }
+    .row{
+        padding-bottom: 0rem;
+    }
+    textarea{
+        width:25em;
+        height:18em;
+    }
+    h4{
+        font-size:1.2rem;
+    }
+    .game-top{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        
+    }
+    .github-pic{
+        width:30px;
+        height:30px;
+    }
+    .links{
+        font-size:.9rem;
+    }
+    
+ 
+}
+
+
+@media (min-width: 992px) { 
+    .col-sm-5 {
+        width: 100%;
+        max-width: 100%;
+    }
+    .card{
+        width:40rem;
+    }
+    .card-title{
+        font-size: 4rem;
+    }
+    .display-4{
+        font-size: 2.5rem;
+    }
+    .start-page{
+        margin-left:6rem;
+        margin-right:6rem;
+    }
+    .row{
+        padding-bottom: 0rem;
+    }
+    textarea{
+        width:30em;
+        height:20em;
+    }
+    h4{
+        font-size:1.3rem;
+    }
+    .game-top{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        
+    }
+    .github-pic{
+        width:35px;
+        height:35px;
+    }
+    .links{
+        font-size:1rem;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .col-sm-5 {
+        width: 40%;
+        max-width: 40%;
+    }
+    .card{
+        width:25rem;
+    }
+    .card-title{
+        font-size: 2rem;
+    
+    }
+    .start-page{
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    .display-4{
+        font-size: 3.5rem;
+    }
+    textarea{
+        width:30em;
+        height:20em;
+    }
+    h4{
+        font-size:1.5rem;
+    }
+    .game-top{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        
+    }
+    .video-trailer{
+        width:50%;
+        height:50%;
+    }
+    .github-pic{
+        width:50px;
+        height:50px;
+    }
+    .links{
+        font-size:1rem;
+    }
+ }
+
+ 
+/*font-family: 'Titillium Web', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Vollkorn', serif;*/
+
