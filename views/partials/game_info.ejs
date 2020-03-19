@@ -2,10 +2,14 @@
     <div class="game-top w-100 mb-4">
         <h1 class="game-info"><%= title %></h1>
     </div>
+    <% if (image == 'n') { %>
     <!-- <% include ./nav %> -->
-    <div class="embed-responsive embed-responsive-16by9 w-50 h-50 video-trailer mx-auto">
-        <iframe class="embed-responsive-item" src="<%= trailer%>" allowfullscreen></iframe>
-    </div>
+    <div class="embed-responsive embed-responsive-16by9 video-trailer mx-auto">
+        <iframe class="embed-responsive-item" src="<%= trailer%>" ></iframe>
+    </div> 
+    <% } else { %>
+        <img src="<%= trailer%>" class="img-fluid" alt="Responsive image">
+    <% }  %>
   
 </div>
 <div class="container">
