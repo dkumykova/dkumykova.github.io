@@ -2,9 +2,11 @@
     <div class="game-top w-100 mb-4">
         <h1 class="game-info"><%= title %></h1>
     </div>
+    <!-- <% include ./nav %> -->
     <div class="embed-responsive embed-responsive-16by9 w-50 h-50 video-trailer mx-auto">
         <iframe class="embed-responsive-item" src="<%= trailer%>" allowfullscreen></iframe>
     </div>
+  
 </div>
 <div class="container">
     <hr class="separator">
@@ -15,23 +17,5 @@
         <br>
         <h4 class="text-center mb-1"><strong>Tools: </strong><%= tools %></h4>
     </div>
-    <hr class="separator">
-    <h4 class="text-center mb-5 game-paragraph">Gallery</h4>
-    <div class="gallery ml-5">
-        <div class="row">
-            <div class="col-sm-6" >
-            <div class="card " style="width: 25rem;">
-                <img src="<%= picture1 %>" class="card-img" alt="...">
-            </div>
-        </div>
-            <div class="col-sm-6" >
-                <div class="card " style="width: 25rem;">
-                    <img src="<%= picture2 %>" class="card-img" alt="...">
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     
 </div>
