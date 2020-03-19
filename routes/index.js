@@ -18,7 +18,7 @@ router.get('/karen', function(req, res, next) {
       role:'Lead Gameplay and Audio Programmer', tools:'Unreal Engine 4, Reaper',
     picture1: '../../images/meatloaf.gif',
     picture2: '../../images/books.gif',
-    trailer: 'https://www.youtube.com/embed/TGbZYUslGhQ'});
+  trailer: 'https://www.youtube.com/embed/TGbZYUslGhQ'});
 });
 
 router.get('/fighters', function(req, res, next) {
@@ -27,7 +27,7 @@ router.get('/fighters', function(req, res, next) {
       role:'Audio and Programmer', tools:'Gamemaker, Reaper',
     picture1: '../../images/meatloaf.gif',
     picture2: '../../images/books.gif',
-    trailer: '#'});
+    trailer: '../../images/books.gif'});
 });
 
 router.get('/website', function(req, res, next) {

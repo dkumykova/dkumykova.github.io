@@ -20,3 +20,13 @@ function nooverlay(el){
 function loadAbout(){
     
 }
+
+function email(){
+    console.log('email sent');
+
+    var subj = document.getElementById("subject").value; 
+    var msg = document.getElementById("message").value; 
+    var email = document.getElementById("email").value; 
+
+    window.open('mailto:dkumykova@gmail.com?subject=' + subj + '&body=' + msg);
+}
