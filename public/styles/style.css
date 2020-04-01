@@ -246,6 +246,7 @@ h4{
     .col-sm-5 {
         width: 100%;
         max-width: 100%;
+        margin-left:3rem;
     }
     .card{
         width:40rem;
@@ -292,6 +293,7 @@ h4{
     .col-sm-5 {
         width: 40%;
         max-width: 40%;
+        margin-left:3rem;
     }
     .card{
         width:25rem;
