@@ -56,16 +56,37 @@
 </div>
 <div class="container">
     <hr class="separator">
+    <% if (steam == 'y') { %>
+        <div class="text-center">
+            <h3>Wishlist on Steam Now!</h3>
+            <a href="https://store.steampowered.com/app/1320550/The_Call_of_Karen/"><img class="github-pic" src="../images/steam.png"></a>
+        </div>  
+        <br>
+    <% } %>
+    <% if (canPlay == 'y') { %>
+        <div class="text-center">
+            <h3>Playable <solid><a href="https://store.steampowered.com/app/1320550/The_Call_of_Karen/">here!</a></solid></h3>
+        </div>  
+        <br>
+    <% } %>
     <div class="game-paragraph">
-        <h4 class="text-center mb-1"><strong>Role:</strong> <%= role %></h4>
-        <br>
+      
         <h4 class="text-center mb-1 ml-4 mr-4"><%= synopsis %></h4>
-        <br>
-        <h4 class="text-center mb-1">My Contributions: </h4>
-        <h5 class="text-center mb-1"><%= contrib %></h5>
+        <hr class="separator">
+        <h4 class="text-center mb-1"><strong>Role:</strong> <%= role %></h4>
         <br>
         <h4 class="text-center mb-1"><strong>Tools: </strong><%= tools %></h4>
         <br>
+        <h4 class="text-center mb-1">What I did for this project: </h4>
+        <br>
+        <ul>
+            <% let k = 0; %>
+            <% for (k = 0; k < contrib.length; k++) { %>
+                <li class="ml-5 mb-2"> <h5><%- contrib[k] %></h5></li>
+            <% } %>
+        </ul>
+        <!-- <h5 class="text-center mb-1"><%= contrib %></h5> -->
+       
     </div>
     
 </div>

@@ -4,8 +4,18 @@
     position:sticky;
 }
 
+
+  
+.foot{
+    /* position: absolute; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+
 a{
-    color: #394d4d;
+    color: #fcfffa;
 
 }
 a:hover{
@@ -15,7 +25,7 @@ a:hover{
    
     text-align: center;
     font-family: 'Playfair Display', serif;
-    background-color:#fce6ac;
+    background-color:#87b48c;
     /*do cool css animations in here, falling snow or sparkles or something*/
 }
 .start-page{
@@ -59,7 +69,7 @@ a:hover{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #3e687e;
+  background-color: #325336;
 }
 
 .card-title{
@@ -80,7 +90,7 @@ a:hover{
 }
 
 .game-top{
-    background-color: #e5a977;
+    background-color: #87b48c;
     font-family: 'Playfair Display', serif;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -88,7 +98,7 @@ a:hover{
 }
   
 .separator {
-    background: #c4e5d4;
+    background: #ebece7;
     height: 1px;
     overflow: hidden;
     position: relative;
@@ -112,8 +122,9 @@ a:hover{
 }
 
 body{
-    color: #394d4d;
-    /* background-color: #eaedf5e8; */
+    color: #fcfffa;
+    background-color: #2c8e7b;
+
 }
 #refPhoto{
     margin-left:1rem;
