@@ -143,6 +143,15 @@ h4{
     width:100%;
     height:550px;
 }
+.carousel-item, .d-block{
+    height:18rem;
+}
+
+#gameCarousel{
+    height:18rem;
+    margin-left: 3.5rem;
+    width: 75%;
+}
 
 @media (min-width: 576px) { 
 
@@ -189,6 +198,15 @@ h4{
         width:100%;
         height:600px;
     }
+    .carousel-item, .d-block{
+        height:20rem;
+    }
+    
+    #gameCarousel{
+        height:20rem;
+        margin-left: 5rem;
+        width: 75%;
+    }
     
 }
 
@@ -225,6 +243,7 @@ h4{
     .game-top{
         padding-top: 3rem;
         padding-bottom: 3rem;
+        /*margin-left:12rem;*/
         
     }
     .github-pic{
@@ -237,6 +256,15 @@ h4{
     .resume-pdf{
         width:100%;
         height:600px;
+    }
+    .carousel-item, .d-block{
+        height:22rem;
+    }
+    
+    #gameCarousel{
+        height:22rem;
+        margin-left: 6rem;
+        width: 75%;
     }
  
 }
@@ -286,6 +314,15 @@ h4{
         width:100%;
         height:850px;
     }
+    .carousel-item, .d-block{
+        height:25rem;
+    }
+    
+    #gameCarousel{
+        height:25rem;
+        margin-left: 8rem;
+        width: 75%;
+    }
 }
 
 @media (min-width: 1200px) { 
@@ -320,8 +357,8 @@ h4{
         
     }
     .video-trailer{
-        width:50%;
-        height:50%;
+        width:100%;
+        height:100%;
     }
     .github-pic{
         width:50px;
@@ -333,6 +370,15 @@ h4{
     .resume-pdf{
         width:100%;
         height:1000px;
+    }
+    .carousel-item, .d-block{
+        height:30rem;
+    }
+    
+    #gameCarousel{
+        height:30rem;
+        margin-left: 24rem;
+        width: 50%;
     }
  }
 
