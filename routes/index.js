@@ -35,7 +35,7 @@ router.get('/website', function(req, res, next) {
 
 router.get('/fatal', function(req, res, next) {
   res.render('game', {title: 'Fatal Error', synopsis:  gameInfo.description.fatal,
-      role:' Programmer and Audio', tools:'Dragonfly Engine, C++', images: [],
+      role:' Programmer and Audio', tools:'Dragonfly Engine, C++', images: ["../../images/fatal_error_title.png", "../../images/fatal_error_menu.png", "../../images/fatal_error_fight.png"],
     trailer: 'https://www.youtube.com/embed/tGfXXczZ4Js', isTrailer:'y', contrib: gameInfo.contributions.fatal, steam: 'n', canPlay: 'n'});
 });
 
@@ -47,7 +47,7 @@ router.get('/boids', function(req, res, next) {
 
 router.get('/dragonfly', function(req, res, next) {
   res.render('game', {title: 'Dragonfly Engine', synopsis: gameInfo.description.dragonfly,
-      role:' Programmer', tools:'C++', images: ["../../images/state_machine_sample.png", "../../images/saucer_shoot_play.png"],
+      role:' Programmer', tools:'C++', images: ["../../images/dragonfly_title.png", "../../images/saucer_shoot_play.png", "../../images/state_machine_sample.png"],
     trailer: '', isTrailer:'n', contrib: gameInfo.contributions.dragonfly, steam: 'n', canPlay: 'n'});
 });
 

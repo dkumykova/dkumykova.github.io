@@ -2,7 +2,9 @@
     <div class="game-top w-100 mb-4">
         <h1 class="game-info"><%= title %></h1>
     </div>
-        <div id="gameCarousel" class="carousel slide text-center" data-ride="carousel" data-interval="false">
+<div class="row d-flex justify-content-center">
+    <div class="col-lg-6">
+        <div id="gameCarousel" class="carousel slide " data-ride="carousel" data-interval="false">
             <ol class="carousel-indicators">
                 <% let i = 0; %>
                 <% let slides = 0; %>
@@ -17,7 +19,6 @@
             </ol>
             <div class="carousel-inner">
                 <% let j = 0; %>
-                <% console.log(images.length); %>
                 <% if (isTrailer == 'y') { %>
                     <div class="carousel-item active">
                       <div class="embed-responsive embed-responsive-16by9 video-trailer mx-auto w-100">
@@ -51,7 +52,8 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-        
+        </div>
+    </div>
   
 </div>
 <div class="container">
@@ -65,7 +67,7 @@
     <% } %>
     <% if (canPlay == 'y') { %>
         <div class="text-center">
-            <h3>Playable <solid><a href="https://store.steampowered.com/app/1320550/The_Call_of_Karen/">here!</a></solid></h3>
+            <h3>Playable <solid><a href="https://clumsyguppy.github.io/Website%20Files/A10/game.html">here!</a></solid></h3>
         </div>  
         <br>
     <% } %>
