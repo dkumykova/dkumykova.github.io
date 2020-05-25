@@ -3,8 +3,8 @@
         <h1 class="game-info"><%= title %></h1>
     </div>
 <div class="row d-flex justify-content-center">
-    <div class="col-lg-6">
-        <div id="gameCarousel" class="carousel slide " data-ride="carousel" data-interval="false">
+    <div class="col-lg-7">
+        <div id="gameCarousel" class="carousel slide border border-light" data-ride="carousel" data-interval="false">
             <ol class="carousel-indicators">
                 <% let i = 0; %>
                 <% let slides = 0; %>
@@ -26,7 +26,8 @@
                       </div> 
                     </div>
                     <% } %>
-                <% for (j = 0; j < slides - 1; j++) { %>
+                <% slides = images.length%>
+                <% for (j = 0; j < slides; j++) { %>
                     <% if (j < 1 && isTrailer != 'y') { %>
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="<%= images[j] %>" >

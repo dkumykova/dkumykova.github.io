@@ -29,7 +29,7 @@ router.get('/fighters', function(req, res, next) {
 
 router.get('/website', function(req, res, next) {
   res.render('game', {title: 'Personal Website', synopsis: gameInfo.description.website,
-      role:' Programmer', tools:'EJS, Bootstrap, HTML/CSS, Javascript', images: ["../../images/old_website.png"],
+      role:' Programmer', tools:'EJS, Bootstrap, HTML/CSS, Javascript', images: ["../../images/old_website.png", "../../images/new_website.png"],
     trailer: '', isTrailer:'n', contrib: gameInfo.contributions.website, steam: 'n', canPlay: 'n'});
 });
 
