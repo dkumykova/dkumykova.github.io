@@ -30,3 +30,4 @@ function email(){
 
     window.open('mailto:dkumykova@gmail.com?subject=' + subj + '&body=' + msg);
 }
+
