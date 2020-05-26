@@ -170,7 +170,7 @@ h5{
     .col-sm-5 {
         width: 100%;
         max-width: 100%;
-        margin-left:0rem;
+        /* margin-left:0rem; */
     }
     .card{
         width:25rem;
@@ -291,7 +291,7 @@ h5{
     .col-sm-5 {
         width: 100%;
         max-width: 100%;
-        margin-left:3rem;
+        /* margin-left:3rem; */
     }
     .card{
         width:40rem;
