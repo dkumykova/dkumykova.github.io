@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 var gameInfo = require('../public/js/gameInfoText');
 
-/* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index');
 });
@@ -18,7 +17,7 @@ router.get('/resume', function(req, res, next) {
 router.get('/karen', function(req, res, next) {
   res.render('game', {title: 'Call Of Karen', synopsis: gameInfo.description.karen,
       role:'Lead Gameplay and Audio Programmer', tools:'Unreal Engine 4, Reaper', images: ["../../images/karen_breakfast.jpg", "../../images/karen_cleaning.jpg", "../../images/karen_dinner.jpg", "../../images/karen_spook.jpg", "../../images/books.gif"],
-  trailer: 'https://www.youtube.com/embed/BB3jwdJzrFQ', isTrailer: 'y', contrib: gameInfo.contributions.karen, steam: 'y', canPlay: 'n'});
+  trailer: 'https://www.youtube.com/embed/S538M2y7xtw', isTrailer: 'y', contrib: gameInfo.contributions.karen, steam: 'y', canPlay: 'n'});
 });
 
 router.get('/fighters', function(req, res, next) {
